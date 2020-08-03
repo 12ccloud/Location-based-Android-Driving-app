@@ -1,6 +1,7 @@
 # Location-based-Android-Driving-app
 The purpose for this Android App is designed to display events on map. Drivers are able to share traffic condition events by interacting with the app.
   - Traffic, Parking, Construction, etc.
+  - In-app simple voice control, support hand-free during driving. Enhance user experience.
  
 ### Why I choose to do an Android app?
 Android is a software system which is widely used on different types of devices, there is a great demand for using Android app.
@@ -17,8 +18,12 @@ Android is a software system which is widely used on different types of devices,
    - Fribase Message System - live updates
    
  - Goolge Map View
-   - The app is integrated with Google Map view. Increase the speed of developing by taking advantage of using it.
+   - The app is integrated with Google Map view. Increase the speed of developing by taking advantage of using it.\
    
+ -  Google Speech Recognition
+ (https://cloud.google.com/speech-to-text) <br>
+ Convert speech into text by using an open/ a public API
+ 
 ### Some basic concepts
 - Four basic components of Android
   - Activity (https://developer.android.com/reference/android/app/Activity)
@@ -26,7 +31,7 @@ Android is a software system which is widely used on different types of devices,
   - Broadcast Receiver (https://developer.android.com/reference/android/content/BroadcastReceiver)
   - Content Provider (https://developer.android.com/guide/topics/providers/content-providers)
 
-- Layout design
+- Layout design and choices of programming languages
   - In Andorid, XML(Extensible Markup Language) is used to design layout, because XML is a lightweight language.
   - In this "smart driving" program, Java is used to provide logic.
              
